@@ -13,7 +13,7 @@ body {
 .container {
   display: flex;
   width: 800px;
-  height: 590px;
+  height: 600px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -141,6 +141,13 @@ h2 {
   font-size: 40px;
   margin-bottom: 10px;
 }
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+  display: block;
+}
+
 
 /* RESPONSIVENESS */
 @media (max-width: 850px) {
